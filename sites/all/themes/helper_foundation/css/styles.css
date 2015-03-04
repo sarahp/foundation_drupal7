@@ -6,9 +6,9 @@ h2 {
 	margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (min-width: 40em) {
 
-    .first-sidebar {
-        display: none;
+    .region-sidebar-first {
+       background: green;
     }
 }
