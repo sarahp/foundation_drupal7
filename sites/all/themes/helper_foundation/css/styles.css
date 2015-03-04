@@ -1,0 +1,14 @@
+.top-bar {
+  background: #ffffff;
+}
+
+h2 {
+	margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 30em) {
+
+    .first-sidebar {
+        display: none;
+    }
+}
