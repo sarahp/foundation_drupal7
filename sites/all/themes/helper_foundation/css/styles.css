@@ -6,9 +6,14 @@ h2 {
 	margin-bottom: 1rem;
 }
 
-@media only screen and (min-width: 40em) {
+@small-range: (0em, 40em); /* 0, 640px */
+@medium-range: (40.063em, 64em); /* 641px, 1024px */
+@large-range: (64.063em, 90em); /* 1025px, 1440px */
+@xlarge-range: (90.063em, 120em); /* 1441px, 1920px */
+@xxlarge-range: (120.063em); /* 1921px */
 
-    .region-sidebar-first {
-       background: green;
-    }
-}
+
+/* Small screens */ 
+@media only screen { } /* Define mobile styles */   
+￼￼@media only screen and (max-width: 40em) { } /* max-width
+￼
